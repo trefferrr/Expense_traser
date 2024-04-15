@@ -9,7 +9,7 @@ require('dotenv').config()
 const PORT = process.env.PORT
 
 //middlewares
-const allowedOrigins = ["http://localhost:3000", "https://expense-gkt9ibroy-adityas-projects-6d993e50.vercel.app"];
+const allowedOrigins = ["http://localhost:3000", "https://expense-2aflvmxkv-adityas-projects-6d993e50.vercel.app"];
 
 app.use(cors({
     origin: function (origin, callback) {
